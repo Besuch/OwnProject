@@ -1,5 +1,4 @@
-
-public class SelectionSort {
+class SelectionSort {
 
     public static void main(String[] args) {
         Integer[] mas = {5, 90, 11, 99, 87, 70, 0, 7, 88};

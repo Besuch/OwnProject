@@ -1,5 +1,4 @@
-
-public class BubbleSort {
+class BubbleSort {
 
     public static void main(String[] args) {
         Integer[] mas = {5, 90, 99, 87, 11, 70, 0, 7, 88};
