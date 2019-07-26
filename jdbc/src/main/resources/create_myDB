@@ -1,0 +1,19 @@
+CREATE DATABASE owndb;
+USE owndb;
+SET GLOBAL time_zone = '+2:00';
+
+CREATE TABLE persons
+(
+    id      int(3)      NOT NULL AUTO_INCREMENT,
+    name    varchar(20) NOT NULL,
+    surname varchar(20) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE books
+(
+    number int(3)      NOT NULL AUTO_INCREMENT,
+    title  varchar(20) NOT NULL,
+    author varchar(20) NOT NULL,
+    PRIMARY KEY (number)
+);
